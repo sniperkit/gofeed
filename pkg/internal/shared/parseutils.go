@@ -8,7 +8,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/mmcdole/goxpp"
+	xpp "github.com/sniperkit/goxpp/pkg"
 )
 
 var (

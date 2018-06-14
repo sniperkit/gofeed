@@ -7,7 +7,7 @@ import (
 
 	// external
 	"github.com/PuerkitoBio/goquery"
-	"github.com/mmcdole/goxpp"
+	xpp "github.com/sniperkit/goxpp/pkg"
 
 	// internal
 	"github.com/sniperkit/gofeed/pkg/extensions"

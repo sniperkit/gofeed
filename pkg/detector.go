@@ -5,7 +5,7 @@ import (
 	"strings"
 
 	// external
-	"github.com/mmcdole/goxpp"
+	xpp "github.com/sniperkit/goxpp/pkg"
 
 	// internal
 	"github.com/sniperkit/gofeed/pkg/internal/shared"

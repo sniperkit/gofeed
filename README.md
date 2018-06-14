@@ -232,7 +232,7 @@ Enclosures | /rss/channel/item/enclosure | /feed/entry/link[@rel=”enclosure”
 
 ## Dependencies
 
-* [goxpp](https://github.com/mmcdole/goxpp) - XML Pull Parser
+* [goxpp](https://github.com/sniperkit/goxpp/pkg) - XML Pull Parser
 * [goquery](https://github.com/PuerkitoBio/goquery) - Go jQuery-like interface
 * [testify](https://github.com/stretchr/testify) - Unit test enhancements
 
