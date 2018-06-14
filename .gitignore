@@ -1,3 +1,26 @@
+vendor/
+glide
+build/
+
+vendor
+vendor/
+vendor/*
+vendor/**
+
+gofeed
+
+cmd/gofeed/gofeed*
+
+bin
+bin/
+bin/*
+bin/**
+
+dist
+dist/
+dist/*
+dist/**
+
 # Compiled Object files, Static and Dynamic libs (Shared Objects)
 *.o
 *.a

@@ -10,7 +10,7 @@ install:
 - go get github.com/mattn/goveralls
 - go get golang.org/x/tools/cmd/cover
 script:
-- go test -v ./...
-- $GOPATH/bin/overalls -project=github.com/mmcdole/gofeed -covermode=count -ignore=.git,vendor -debug
+- go test -v ./pkg/...
+- $GOPATH/bin/overalls -project=github.com/sniperkit/gofeed/pkg -covermode=count -ignore=.git,vendor -debug
 after_success:
     - $GOPATH/bin/goveralls -coverprofile=overalls.coverprofile -service=travis-ci
