@@ -1,0 +1,17 @@
+package: github.com/sniperkit/gofeed
+import:
+- package: github.com/PuerkitoBio/goquery
+- package: github.com/codegangsta/cli
+- package: github.com/sniperkit/goxpp
+  subpackages:
+  - pkg
+- package: golang.org/x/net
+  subpackages:
+  - html/charset
+- package: golang.org/x/text
+  subpackages:
+  - transform
+testImport:
+- package: github.com/stretchr/testify
+  subpackages:
+  - assert
